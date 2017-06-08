@@ -13,6 +13,7 @@
         "tabs"
     ],
     "background": {
-        "scripts": ["background.js", "lodash.core.min.js"]
+        "scripts": ["background.js", "lodash.core.min.js"],
+        "persistent": false
     }
 }
