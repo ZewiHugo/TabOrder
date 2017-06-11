@@ -7,13 +7,13 @@
 
     "browser_action": {
         "default_icon": "icon.png",
-        "default_title": "Click to order tabs"
+        "default_title": "click to manage tab",
+        "default_popup": "popup/popup.html"
     },
     "permissions": [
         "tabs"
     ],
     "background": {
-        "scripts": ["background.js", "lodash.core.min.js"],
-        "persistent": false
+        "page": "bg.html"
     }
 }
